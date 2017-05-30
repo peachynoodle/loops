@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>For Loops</title>
+<style>body {font-size: 28px;}</style>
+</head>
+
+<body>
+
+<script>
+// example 1
+for (var i=1; i<10; i=i+1) {
+    document.write(i + " ");
+}
+
+document.write("<br>");
+
+
+
+// example 2
+for (var i=0; i<=9; i=i+1) {
+    document.write(i + " ");
+}
+
+document.write("<br>");
+
+
+
+// example 3
+for (var i=5; i<=100; i=i+5) {
+    document.write(i + " ");
+}
+
+document.write("<br>");
+
+
+
+// example 4
+for (var i=10; i>0; i=i-1)
+{
+    document.write(i + " ");
+}
+document.write("Blast off!");
+
+document.write("<br>");
+
+
+// example 5
+var rule = "I will not play games in class.";
+
+for (var i=1; i<=5; i=i+1) {
+    document.write(rule + "<br>");
+}
+
+
+// example 6
+var sum = 0;
+
+for (var i=1; i<=100; i++) // i++ is shorthand for i=i+1
+{
+    sum = sum + i;
+}
+
+document.write(sum + "<br>")
+
+// write your own loop that...
+
+// 1. Counts from 0 to 100 by 2s
+for (var i=0; i<=100; i=i+2) {
+    document.write(i + " ");
+}
+
+document.write("<br>");
+
+// 2. Counts from 99 to 0 by 3s
+for (var i=99; i>=0; i=i-3)
+{
+    document.write(i + " ");
+}
+
+document.write("<br>");
+
+// 3. Prints your name 10 times.
+var rule = "Wen";
+
+for (var i=1; i<=10; i=i+1) {
+    document.write(rule + "<br>");
+}
+
+// 4. Calculates the sum of all positive integers below 5000.
+var sum = 0;
+
+for (var i=1; i<5000; i++) // i++ is shorthand for i=i+1
+{
+    sum = sum + i;
+}
+
+document.write(sum + "<br>")
+
+// 5. Calculates the sum of all positive odd integers below 5000.
+var sum = 0;
+
+for (var i=1; i<5000; i=i+2) // i++ is shorthand for i=i+1
+{
+    sum = sum + i;
+}
+
+document.write(sum + "<br>")
+
+// Challenge:
+//
+//  Write a loop that prompts the user to enter 5 numbers. Then use an alert to
+//  display the average of those numbers.
+//
+//  Hint: prompt popups always store values as strings. You'll need
+//        to force the value to be stored as a number. For example,
+//
+//        var x = Number( prompt('enter a value') );
+
+
+
+</script>
+
+
+</body>
+</html>
